@@ -6,8 +6,13 @@ Each incorrect guess reveals a part of the hangman image and reduces guesses lef
 Features :
 
 Random word selection each game
+
 Displays correct and wrong guesses
+
 Tracks remaining attempts
+
 Play Again button
-Interactive letter buttons
+
+
+
 
