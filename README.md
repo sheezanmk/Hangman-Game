@@ -5,13 +5,15 @@ Each incorrect guess reveals a part of the hangman image and reduces guesses lef
 
 Features :
 
-Random word selection each game
+1. Random word selection in each game
 
-Displays correct and wrong guesses
+2. Displays correct and wrong guesses
 
-Tracks remaining attempts
+3. Tracks remaining attempts
 
-Play Again button
+4. Display win and lose reults
+
+5. Resets game to play again
 
 
 
