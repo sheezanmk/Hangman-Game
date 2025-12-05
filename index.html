@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <title>Hangman Game</title>
+  </head>
+  <body>
+    <header>
+      <h1>Hangman</h1>
+      <p>Try to guess the hidden word!</p>
+    </header>
+
+    <main class="game">
+      <section class="game__hangman game__top">
+        <h2>Hangman</h2>
+        <img
+          src="./assets/img/h-0.jpg"
+          alt="hangman-img stage 0"
+          class="hangman-img"
+          id="hangman-img"
+        />
+      </section>
+
+      <section class="game__words">
+        <h2>Word to Guess</h2>
+        <p class="game__words__display" id="word-display"></p>
+      </section>
+
+      <section class="game__message">
+        <h2>Game Status</h2>
+        <p>
+          Wrong Guesses:
+          <span id="wrong-letters"></span>
+        </p>
+        <p>
+          Guesses left:
+          <span id="guesses-left">11</span>
+        </p>
+      </section>
+      <section class="game__buttons">
+        <h2>Pick a letter</h2>
+        <div class="game__buttons__letters">
+          <button type="button" class="game__buttons__letter">A</button>
+          <button type="button" class="game__buttons__letter">B</button>
+          <button type="button" class="game__buttons__letter">C</button>
+          <button type="button" class="game__buttons__letter">D</button>
+          <button type="button" class="game__buttons__letter">E</button>
+          <button type="button" class="game__buttons__letter">F</button>
+          <button type="button" class="game__buttons__letter">G</button>
+          <button type="button" class="game__buttons__letter">H</button>
+          <button type="button" class="game__buttons__letter">I</button>
+          <button type="button" class="game__buttons__letter">J</button>
+          <button type="button" class="game__buttons__letter">K</button>
+          <button type="button" class="game__buttons__letter">L</button>
+          <button type="button" class="game__buttons__letter">M</button>
+          <button type="button" class="game__buttons__letter">N</button>
+          <button type="button" class="game__buttons__letter">O</button>
+          <button type="button" class="game__buttons__letter">P</button>
+          <button type="button" class="game__buttons__letter">Q</button>
+          <button type="button" class="game__buttons__letter">R</button>
+          <button type="button" class="game__buttons__letter">S</button>
+          <button type="button" class="game__buttons__letter">T</button>
+          <button type="button" class="game__buttons__letter">U</button>
+          <button type="button" class="game__buttons__letter">V</button>
+          <button type="button" class="game__buttons__letter">W</button>
+          <button type="button" class="game__buttons__letter">X</button>
+          <button type="button" class="game__buttons__letter">Y</button>
+          <button type="button" class="game__buttons__letter">Z</button>
+        </div>
+      </section>
+
+      <section class="game__result">
+        <p class="game__result__message" id="result-message"></p>
+        <button type="button" id="play-again-btn">Play Again</button>
+      </section>
+    </main>
+  </body>
+</html>
