@@ -139,3 +139,11 @@ If I were to extend the project further, I would add:
 - Timer-based gameplay
 
 - Convert the game into a React application
+
+## Challenges
+
+One challenge was managing the game state while ensuring the UI updated correctly. In particular, synchronizing the hidden word display with the user's guessed letters required careful logic to ensure that letters appeared in the correct positions.
+
+Another challenge was preventing repeated guesses. I solved this by disabling letter buttons once they were selected and maintaining a record of guessed letters.
+
+
