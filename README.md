@@ -5,12 +5,11 @@ This project was built as part of my front-end development training to practice 
 The goal was to implement the full game logic in JavaScript while creating a responsive and user-friendly interface using HTML and SCSS.
 
 ## Demo
+- https://endearing-caramel-9d80ac.netlify.app/
 
--  endearing-caramel-9d80ac.netlify.app
+- Screenshot
 
-- Screenshots
-
-  <img width="546" height="1600" alt="image" src="https://github.com/user-attachments/assets/b7f40bfa-7e4e-4a30-9134-d658d670c8c0" />
+<img width="546" height="1600" alt="image" src="https://github.com/user-attachments/assets/b7f40bfa-7e4e-4a30-9134-d658d670c8c0" />
 
 
 
@@ -151,10 +150,7 @@ If I were to extend the project further, I would add:
 
 - Convert the game into a React application
 
-## Challenges
 
-One challenge was managing the game state while ensuring the UI updated correctly. In particular, synchronizing the hidden word display with the user's guessed letters required careful logic to ensure that letters appeared in the correct positions.
 
-Another challenge was preventing repeated guesses. I solved this by disabling letter buttons once they were selected and maintaining a record of guessed letters.
 
 
