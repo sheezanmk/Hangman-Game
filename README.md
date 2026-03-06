@@ -4,7 +4,7 @@ This project was built as part of my front-end development training to practice 
 
 The goal was to implement the full game logic in JavaScript while creating a responsive and user-friendly interface using HTML and SCSS.
 
-##Demo
+## Demo
 
 -  endearing-caramel-9d80ac.netlify.app
 
