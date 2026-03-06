@@ -1,8 +1,19 @@
-## Requirements / Purpose
+## Hangman Game
 
 This project was built as part of my front-end development training to practice JavaScript logic, DOM manipulation, and event handling by building a classic Hangman word-guessing game.
 
 The goal was to implement the full game logic in JavaScript while creating a responsive and user-friendly interface using HTML and SCSS.
+
+##Demo
+
+-  endearing-caramel-9d80ac.netlify.app
+
+- Screenshots
+
+  <img width="546" height="1600" alt="image" src="https://github.com/user-attachments/assets/b7f40bfa-7e4e-4a30-9134-d658d670c8c0" />
+
+
+
 
 ## Features
 
