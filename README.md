@@ -8,23 +8,23 @@ The goal was to implement the full game logic in JavaScript while creating a res
 
 The Minimum Viable Product included:
 
-# Random word generation
+- Random word generation
 
-# Hidden word display using placeholders
+- Hidden word display using placeholders
 
-# Letter guessing functionality
+- Letter guessing functionality
 
-# Correct letter reveal logic
+- Correct letter reveal logic
 
-# Incorrect guess tracking
+- Incorrect guess tracking
 
-# Game win condition
+- Game win condition
 
-# Game lose condition
+- Game lose condition
 
-# Disabled letters once selected
+- Disabled letters once selected
 
-# Play again functionality
+- Play again functionality
 
 ## Stack Used
 
@@ -62,27 +62,27 @@ No additional dependencies are required as the project runs entirely in the brow
 
 The primary goals were:
 
-# Implement a fully functional game using pure JavaScript
+- Implement a fully functional game using pure JavaScript
 
-# Practice managing game state
+- Practice managing game state
 
-# Improve DOM manipulation skills
+- Improve DOM manipulation skills
 
-# Create a clean and intuitive user interface
+- Create a clean and intuitive user interface
 
 ## Implementation Approach
 
 The application logic revolves around a few core pieces of state:
 
-# Selected word
+- Selected word
 
-# Correct guesses
+- Correct guesses
 
-# Incorrect guesses
+- Incorrect guesses
 
-# Remaining attempts
+- Remaining attempts
 
-# When a user selects a letter:
+- When a user selects a letter:
 
 - The game checks whether the letter exists in the selected word.
   - If correct, the letter is revealed in the hidden word.
@@ -98,44 +98,44 @@ The application logic revolves around a few core pieces of state:
 
 ## Features
 
-# Random word selection
+- Random word selection
 
-# Interactive letter keyboard
+- Interactive letter keyboard
 
-# Correct letter reveal system
+- Correct letter reveal system
 
-# Disabled guessed letters
+- Disabled guessed letters
 
-# Wrong guess tracking
+- Wrong guess tracking
 
-# Dynamic game state updates
+- Dynamic game state updates
 
-# Win and lose detection
+- Win and lose detection
 
-# Restart game functionality
+- Restart game functionality
 
-# Clean UI with responsive styling
+- Clean UI with responsive styling
 
 ## Known Issues
 
-# Words are currently stored locally instead of fetched from an API.
+- Words are currently stored locally instead of fetched from an API.
 
-# Game difficulty cannot be adjusted.
+- Game difficulty cannot be adjusted.
 
-# The hangman visual progression could be improved with animations.
+- The hangman visual progression could be improved with animations.
 
 ## Future Goals
 
 If I were to extend the project further, I would add:
 
-# Difficulty levels (easy / medium / hard)
+- Difficulty levels (easy / medium / hard)
 
-# Word API integration for dynamic word lists
+- Word API integration for dynamic word lists
 
-# Animated hangman drawing progression
+- Animated hangman drawing progression
 
-# Score tracking
+- Score tracking
 
-# Timer-based gameplay
+- Timer-based gameplay
 
-# Convert the game into a React application
+- Convert the game into a React application
